@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'PixelatedFont';
+    src: url('assets/PixelatedPusab.ttf') format('truetype');
+}
+
+.pixel {
+    font-family: 'PixelatedFont';
+    font-size: 60px;
+    color: lightskyblue;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button {
+    font-family: 'PixelatedFont';
+    font-size: 18px;
+    padding: 8px;
+    letter-spacing: 2px;
+    background-color: white;
+    border-radius: 12px;
+    border: 3px solid hotpink;
+}
+
+button:hover {
+    background-color: hotpink;
+    border: 3px solid pink;
+    color: white;
+}
